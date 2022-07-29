@@ -285,15 +285,11 @@ def r(row):
 
 def s(row):
     for col in range(6):
-        if col == 1 and row in (1, 2, 6):
+        if col == 0 and row in (1, 2, 5):
             print(symbol, end=' ')
-        elif col == 2 and row in (0, 3, 6):
+        elif col in (1, 2) and row in (0, 3, 6):
             print(symbol, end=' ')
-        elif col == 3 and row in (0, 4, 5):
-            print(symbol, end=' ')
-        elif col == 4 and row == 1:
-            print(symbol, end=' ')
-        elif col == 0 and row == 5:
+        elif col == 3 and row in (1, 4, 5):
             print(symbol, end=' ')
         else:
             print(' ', end=' ')
