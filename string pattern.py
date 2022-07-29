@@ -4,6 +4,7 @@ print()
 inx = 0
 name = name.upper()
 name = name.strip()
+name = ' '+name
 
 
 def call():
