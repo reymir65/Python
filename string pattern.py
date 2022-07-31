@@ -1,5 +1,6 @@
 name = input("Enter your name (include A-Z):")
 symbol = input("Enter your favorite symbol:")
+#♥
 print()
 inx = 0
 name = name.upper()
